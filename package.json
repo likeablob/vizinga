@@ -1,0 +1,51 @@
+{
+  "name": "vizinga",
+  "version": "1.0.0",
+  "description": "Vizinga! Yet Another Online Graphviz Editor",
+  "author": "",
+  "private": true,
+  "homepage": "https://github.com/likeablob/vizinga",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint",
+    "now-build": "npm run build"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.0.0",
+    "@nuxtjs/toast": "^3.0.1",
+    "cross-env": "^5.2.0",
+    "dotenv": "^6.2.0",
+    "eslint-config-prettier": "^4.0.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "lodash": "^4.17.11",
+    "nuxt": "^2.0.0",
+    "pug": "^2.0.3",
+    "pug-plain-loader": "^1.0.0",
+    "viz.js": "^2.1.1",
+    "vue-clipboard2": "^0.2.1",
+    "vue-codemirror": "^4.0.6",
+    "vuetify": "^1.2.4",
+    "vuex-persistedstate": "^2.5.4"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^5.0.1",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^4.0.0",
+    "node-sass": "^4.11.0",
+    "nodemon": "^1.11.0",
+    "sass-loader": "^7.1.0",
+    "scss-loader": "^0.0.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2"
+  }
+}

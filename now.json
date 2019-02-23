@@ -1,0 +1,13 @@
+{
+    "version": 2,
+    "name": "vizinga",
+    "builds": [
+        { "src": "package.json", "use": "@now/static-build" }
+    ],
+    "build": {
+      "env": {
+        "BITLY_TOKEN": "@vizinga-bitly-token"
+      }
+    },
+    "alias": ["vizinga.now.sh"]
+}
